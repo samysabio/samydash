@@ -1,0 +1,4 @@
+Forecast Method,Mean Absolute Error,Root Mean Squared Error,Mean Squared Error,cvRMSE
+Random Forest,17.517,37.879,1434.806,21.32%
+Decision Tree Regressor,19.434,45.858,2103.038,25.81%
+Support Vector ,17.848,44.058,1941.085,24.79%
