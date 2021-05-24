@@ -8,8 +8,8 @@ import numpy as np
 import plotly.express as px
 import plotly.io as io
 
-app = external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
-server = app.server
+external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
+
 
 # Prepare the data
 x = np.linspace(1, 12)
