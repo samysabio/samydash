@@ -58,6 +58,7 @@ fig11=px.line(df7, x='Date', y='SolarRad')
 
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+server = app.server
 
 
 app.layout = html.Div([
