@@ -63,7 +63,7 @@ server = app.server
 
 app.layout = html.Div([
     #html.Img(src=app.get_asset_url('/assets/IST.PNG')),
-    html.Img(src=app.get_asset_url('/assets/IST.PNG'), style={"display": "flex",
+    html.Img(src=app.get_asset_url('IST.PNG'), style={"display": "flex",
                                "justifyContent": "center"}),
     html.H1('IST South Tower Energy Forecast Project', style={"display": "flex",
                                "justifyContent": "center"}),
