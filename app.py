@@ -240,7 +240,7 @@ def render_figure_html(dropdown_year):
 def render_figure_html(dropdown_yea):
     
     if dropdown_yea == 2060:
-        return html.Img(src=app.get_asset_url('ForestR.png'), width=1000),
+        return html.Img(src=app.get_asset_url('ForestR.jpg'), width=1000),
            
     if dropdown_yea == 2061:
         return html.Img(src=app.get_asset_url('./assets/TreeD1.png'), width=1000),
