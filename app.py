@@ -240,13 +240,13 @@ def render_figure_html(dropdown_year):
 def render_figure_html(dropdown_yea):
     
     if dropdown_yea == 2060:
-        return html.Img(src=app.get_asset_url('ForestR.PNG'), width=1000),
+        return html.Img(src=app.get_asset_url('ForestR.PNG'), width=500),
            
     if dropdown_yea == 2061:
-        return html.Img(src=app.get_asset_url('TreeD1.PNG'), width=1000),
+        return html.Img(src=app.get_asset_url('TreeD1.PNG'), width=500),
     
     if dropdown_yea == 2062:
-        return html.Img(src=app.get_asset_url('VectorS.PNG'), width=1000),
+        return html.Img(src=app.get_asset_url('VectorS.PNG'), width=500),
 
 #Clean Data
 @app.callback(Output('graphyear1_html', 'children'), 
@@ -280,11 +280,11 @@ def render_figure_html(dropdown_ye):
 def render_figure_html(dropdown_y):
     
     if dropdown_y == 2040:
-        return html.Img(src=app.get_asset_url('Elbow Curve.png'), width=1000),
+        return html.Img(src=app.get_asset_url('Elbow Curve.png'), width=500),
     elif dropdown_y == 2041:
-        return html.Img(src=app.get_asset_url('Clustering kW - Hr.png'), width=1000),
+        return html.Img(src=app.get_asset_url('Clustering kW - Hr.png'), width=500),
     elif dropdown_y == 2042:
-        return html.Img(src=app.get_asset_url('Cluster Power Plot.png'), width=1000),
+        return html.Img(src=app.get_asset_url('Cluster Power Plot.png'), width=500),
 
     
 #Feature Selection
@@ -294,9 +294,9 @@ def render_figure_html(dropdown_y):
 def render_figure_html(dropdown_):
     
     if dropdown_ == 2050:
-        return html.Img(src=app.get_asset_url('FS - kBest.png'), width=1000),
+        return html.Img(src=app.get_asset_url('FS - kBest.png'), width=500),
     elif dropdown_ == 2051:
-        return html.Img(src=app.get_asset_url('FS - Table.PNG'), width=1000),
+        return html.Img(src=app.get_asset_url('FS - Table.PNG'), width=500),
 #
          
                       
