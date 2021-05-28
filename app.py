@@ -176,7 +176,7 @@ def render_content(tab):
             html.Div(id='graphyear3_html'),  
             
             html.H3('Sample Data of Features for Selection:'),
-            html.Div([generate_table(dg)], style = {'width': '25%', 'display': 'inline-block'}),
+            html.Div([generate_table(dg)], style = {'width': '15%', 'display': 'inline-block'}),
             html.Div(id='graphyear6_html'),
             ])
           
