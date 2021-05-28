@@ -280,11 +280,11 @@ def render_figure_html(dropdown_ye):
 def render_figure_html(dropdown_y):
     
     if dropdown_y == 2040:
-        return html.Img(src=app.get_asset_url('Elbow Curve.PNG'), width=1000),
+        return html.Img(src=app.get_asset_url('Elbow Curve.png'), width=1000),
     elif dropdown_y == 2041:
-        return html.Img(src=app.get_asset_url('Clustering kW - Hr.PNG'), width=1000),
+        return html.Img(src=app.get_asset_url('Clustering kW - Hr.png'), width=1000),
     elif dropdown_y == 2042:
-        return html.Img(src=app.get_asset_url('Cluster Power Plot.PNG'), width=1000),
+        return html.Img(src=app.get_asset_url('Cluster Power Plot.png'), width=1000),
 
     
 #Feature Selection
@@ -294,9 +294,9 @@ def render_figure_html(dropdown_y):
 def render_figure_html(dropdown_):
     
     if dropdown_ == 2050:
-        return html.Img(src=app.get_asset_url('/asset/FS - kBest.png'), width=1000),
+        return html.Img(src=app.get_asset_url('FS - kBest.png'), width=1000),
     elif dropdown_ == 2051:
-        return html.Img(src=app.get_asset_url('/asset/FS - Table.png'), width=1000),
+        return html.Img(src=app.get_asset_url('FS - Table.PNG'), width=1000),
 #
          
                       
