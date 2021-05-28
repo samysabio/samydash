@@ -62,7 +62,7 @@ server = app.server
 
 
 app.layout = html.Div([
-    #html.Img(src=app.get_asset_url('IST.png')),
+    #html.Img(src=app.get_asset_url('IST.PNG')),
     html.Img(src=app.get_asset_url('assets/IST.png'), style={"display": "flex",
                                "justifyContent": "center"}),
     html.H1('IST South Tower Energy Forecast Project', style={"display": "flex",
@@ -243,10 +243,10 @@ def render_figure_html(dropdown_yea):
         return html.Img(src=app.get_asset_url('ForestR.PNG'), width=1000),
            
     if dropdown_yea == 2061:
-        return html.Img(src=app.get_asset_url('TreeD1.png'), width=1000),
+        return html.Img(src=app.get_asset_url('TreeD1.PNG'), width=1000),
     
     if dropdown_yea == 2062:
-        return html.Img(src=app.get_asset_url('VectorS.png'), width=1000),
+        return html.Img(src=app.get_asset_url('VectorS.PNG'), width=1000),
 
 #Clean Data
 @app.callback(Output('graphyear1_html', 'children'), 
@@ -280,11 +280,11 @@ def render_figure_html(dropdown_ye):
 def render_figure_html(dropdown_y):
     
     if dropdown_y == 2040:
-        return html.Img(src=app.get_asset_url('./assets/Elbow Curve.png'), width=1000),
+        return html.Img(src=app.get_asset_url('./assets/Elbow Curve.PNG'), width=1000),
     elif dropdown_y == 2041:
-        return html.Img(src=app.get_asset_url('./assets/Clustering kW - Hr.png'), width=1000),
+        return html.Img(src=app.get_asset_url('./assets/Clustering kW - Hr.PNG'), width=1000),
     elif dropdown_y == 2042:
-        return html.Img(src=app.get_asset_url('./assets/Cluster Power Plot.png'), width=1000),
+        return html.Img(src=app.get_asset_url('./assets/Cluster Power Plot.PNG'), width=1000),
 
     
 #Feature Selection
