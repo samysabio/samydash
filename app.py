@@ -63,7 +63,7 @@ server = app.server
 
 app.layout = html.Div([
     #html.Img(src=app.get_asset_url('IST.PNG')),
-    html.Img(src=app.get_asset_url('assets/IST.png'), style={"display": "flex",
+    html.Img(src=app.get_asset_url('IST.PNG'), style={"display": "flex",
                                "justifyContent": "center"}),
     html.H1('IST South Tower Energy Forecast Project', style={"display": "flex",
                                "justifyContent": "center"}),
@@ -240,13 +240,13 @@ def render_figure_html(dropdown_year):
 def render_figure_html(dropdown_yea):
     
     if dropdown_yea == 2060:
-        return html.Img(src=app.get_asset_url('ForestR.PNG'), width=1000),
+        return html.Img(src=app.get_asset_url('ForestR.PNG'), width=600),
            
     if dropdown_yea == 2061:
-        return html.Img(src=app.get_asset_url('TreeD1.PNG'), width=1000),
+        return html.Img(src=app.get_asset_url('TreeD1.PNG'), width=600),
     
     if dropdown_yea == 2062:
-        return html.Img(src=app.get_asset_url('VectorS.PNG'), width=1000),
+        return html.Img(src=app.get_asset_url('VectorS.PNG'), width=600),
 
 #Clean Data
 @app.callback(Output('graphyear1_html', 'children'), 
@@ -280,11 +280,11 @@ def render_figure_html(dropdown_ye):
 def render_figure_html(dropdown_y):
     
     if dropdown_y == 2040:
-        return html.Img(src=app.get_asset_url('./assets/Elbow Curve.PNG'), width=1000),
+        return html.Img(src=app.get_asset_url('Elbow Curve.PNG'), width=600),
     elif dropdown_y == 2041:
-        return html.Img(src=app.get_asset_url('./assets/Clustering kW - Hr.PNG'), width=1000),
+        return html.Img(src=app.get_asset_url('Clustering kW - Hr.PNG'), width=600),
     elif dropdown_y == 2042:
-        return html.Img(src=app.get_asset_url('./assets/Cluster Power Plot.PNG'), width=1000),
+        return html.Img(src=app.get_asset_url('Cluster Power Plot.PNG'), width=600),
 
     
 #Feature Selection
@@ -294,9 +294,9 @@ def render_figure_html(dropdown_y):
 def render_figure_html(dropdown_):
     
     if dropdown_ == 2050:
-        return html.Img(src=app.get_asset_url('./assets/FS - kBest.png'), width=600),
+        return html.Img(src=app.get_asset_url('FS - kBest.png'), width=600),
     elif dropdown_ == 2051:
-        return html.Img(src=app.get_asset_url('./assets/FS - Table.png'), width=600),
+        return html.Img(src=app.get_asset_url('FS - Table.png'), width=600),
 #
          
                       
